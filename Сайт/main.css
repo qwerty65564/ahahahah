@@ -1,0 +1,113 @@
+body{ font-family:sans-serif;
+    margin: 0px;  
+    color: black;
+    background-color: black;
+    height: 2030px;
+    
+}
+.bg{ display:flex;
+    background-color: RGBA(0,0,0,0.65);
+   height: 84px;
+   position: sticky;
+}
+.pt{color: white;
+display: flex;
+padding-bottom: 20px;
+   
+font-size: 30px;
+}
+.lgim{height: 70px;
+width: 350px;
+    margin: 7px;
+    align-content: center;
+    padding-left: 5px;
+}
+.bim{margin-top: 0px;
+padding-top:0px;
+border-bottom:0px; 
+ }
+.bm{display: none;}
+
+@media screen and (max-width:1010px){
+    .pt{display: none;}
+    .bm{display:block;
+    font-family:sans-serif;
+    margin: 0px;
+    color: white;
+position: fixed;
+padding-bottom: 30px;
+        top: 10px;
+   
+font-size: 30px;
+    right: 20px;
+    margin-left: 100px;}
+    .cont1 a{display: none;}
+    .bttop{display: none;}
+    body{ font-family:sans-serif;
+    margin: 0px;  
+    color: black;
+    background-color: black;
+    height: 1500px;
+    }
+
+
+
+    .textmob{display: block;}
+    .text{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.heroim{height:100%;
+width: 100%;}
+
+.mobilenav{ float: right;
+color: white;
+    z-index: 1;
+}
+.hiden{display:none;}
+
+.ident{display: block;}
+
+
+.semi-transparent-button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* запасной цвет для старых браузеров */
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+    top:500px;
+}
+.cont1 a {position: absolute;
+  top: 105%;
+  left: 50%;
+        transform: translate(-50%, -50%);
+   
+ }
+.text{display: flex; font-size: 20px;}
+.textimg{display: grid;}
+.textmob{display: none;};
